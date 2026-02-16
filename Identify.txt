@@ -1,7 +1,6 @@
 Please enter your details:
 
-Name: 
-NetId:
-N-number: 
-NYU email address: 
-
+Name: Vanshika Bagaria
+NetId: vb2596
+N-number: N18056237
+NYU email address: vb2596@nyu.edu
