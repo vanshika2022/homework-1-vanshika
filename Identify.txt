@@ -1,0 +1,7 @@
+Please enter your details:
+
+Name: 
+NetId:
+N-number: 
+NYU email address: 
+
