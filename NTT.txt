@@ -1,0 +1,52 @@
+NTT (Number Theory Transform) Presentation
+==========================================
+
+What is NTT?
+------------
+The Number Theory Transform (NTT) is a variant of the Fast Fourier Transform (FFT)
+that operates over a finite field (modular arithmetic) instead of complex numbers.
+It is widely used in competitive programming and cryptography for efficient
+polynomial multiplication.
+
+Key Properties:
+---------------
+- Works modulo a prime p where p = c * 2^k + 1 (NTT-friendly prime)
+- Common primes used: 998244353, 469762049, 167772161
+- Time complexity: O(n log n), same as FFT
+- No floating-point precision issues (uses integer arithmetic)
+
+How NTT Works:
+--------------
+1. Choose a prime modulus p and a primitive root g of p
+2. Find the n-th root of unity: w = g^((p-1)/n) mod p
+3. Apply the butterfly operations (like FFT) using w instead of e^(2πi/n)
+4. For inverse NTT, use w^(-1) and multiply result by n^(-1) mod p
+
+Applications:
+-------------
+- Polynomial multiplication modulo a prime
+- Large integer multiplication
+- Convolution in competitive programming problems
+
+Repository Updates Summary:
+----------------------------
+The following updates were made to this repository as part of Homework 1:
+
+1. Identified student:
+   - Name: Vanshika Bagaria
+   - NetId: vb2596
+   - N-number: N18056237
+   - NYU email: vb2596@nyu.edu
+
+2. Created Hello/hello-world.txt:
+   - Created a new file hello-world.txt
+   - Moved it into the Hello directory
+   - Added a message for the grader
+
+3. Removed wrongFork:
+   - Deleted the erroneous "wrongFork" folder and its contents
+
+4. Branching and editing V.txt:
+   - Created a new branch
+   - Answered the question in V.txt (late submission policy)
+   - Merged branch back into main
